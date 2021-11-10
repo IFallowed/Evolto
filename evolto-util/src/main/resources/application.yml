@@ -1,0 +1,4 @@
+jwt:
+  token:
+    expired: 3600000
+    signature: 'HS512'
