@@ -17,7 +17,7 @@ package org.evolto.datasource.model;
  * @author IFallowed
  * @version 1.0
  */
-public interface ISysUser {
+public interface ISysUser<T> {
 
     /**
      * Description：标识此接口的类必须是一个业务实体，拥有业务主键id<br>
@@ -25,5 +25,5 @@ public interface ISysUser {
      * Date：2021/9/17 20:43<br>
      * @return java.lang.Object
      */
-    Object getId();
+    T getId();
 }

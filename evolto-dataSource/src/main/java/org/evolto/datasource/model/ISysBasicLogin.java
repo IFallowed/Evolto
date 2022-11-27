@@ -1,7 +1,7 @@
 /**
  * 版权所有：IFallowed
  * 项目名称：Evolto
- * 包名称：org.evolto.datasource.model.pojo
+ * 包名称：org.evolto.datasource.model
  * 类名称：ISysBasicLogin
  * <p>
  * 创建日期：2021/9/17
@@ -17,7 +17,7 @@ package org.evolto.datasource.model;
  * @author IFallowed
  * @version 1.0
  */
-public interface ISysBasicLogin {
+public interface ISysBasicLogin<T> {
 
     /**
      * Description：标识此接口的类必须是一个业务实体，拥有业务主键id<br>
@@ -25,7 +25,7 @@ public interface ISysBasicLogin {
      * Date：2021/9/17 20:15<br>
      * @return java.lang.Object
      */
-    Object getId();
+    T getId();
 
     /**
      * Description：标识此接口的类应可返回一个{@link String}类型的用户名<br>
@@ -49,5 +49,5 @@ public interface ISysBasicLogin {
      * Date：2021/9/17 20:33<br>
      * @return java.lang.Object
      */
-    Object getUserId();
+    T getUserId();
 }
