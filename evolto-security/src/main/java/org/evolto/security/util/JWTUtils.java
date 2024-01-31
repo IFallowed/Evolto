@@ -13,7 +13,6 @@ package org.evolto.security.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
 import org.evolto.security.config.JwtConfig;
 import org.evolto.security.model.dto.JwtUser;
 
@@ -22,8 +21,8 @@ import java.util.Objects;
 import java.util.UUID;
 
 /**
- * Description：Json Web Token工具类<br>
- * Date：2021/9/17 20:54<br>
+ * @description: Json Web Token工具类
+ * @date: 2021/9/17 20:54
  * @author IFallowed
  * @version 1.0
  */
@@ -39,9 +38,9 @@ public class JWTUtils {
      */
 
     /**
-     * Description：创建token<br>
-     * Author：IFallowed<br>
-     * Date：2021/10/18 15:31<br>
+     * @description: 创建token
+     * @author IFallowed
+     * @date: 2021/10/18 15:31
      * @param jwtUser 用户信息
      * @return java.lang.String
      */
@@ -62,9 +61,9 @@ public class JWTUtils {
     }
 
     /**
-     * Description：解析token<br>
-     * Author：IFallowed<br>
-     * Date：2021/10/18 18:57<br>
+     * @description: 解析token
+     * @author IFallowed
+     * @date: 2021/10/18 18:57
      * @param token token字符串
      * @return io.jsonwebtoken.Claims
      */
@@ -74,5 +73,9 @@ public class JWTUtils {
         } catch (Exception e) {
             return null;
         }
+    }
+
+    private JWTUtils() {
+
     }
 }

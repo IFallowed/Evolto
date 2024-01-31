@@ -22,8 +22,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import java.util.List;
 
 /**
- * Description：基于springSecurity的userDetailsService的实现<br>
- * Date：2021/9/17 19:44<br>
+ * @description 基于springSecurity的userDetailsService的实现
+ * @date 2021/9/17 19:44
  * @author IFallowed
  * @version 1.0
  */

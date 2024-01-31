@@ -19,8 +19,8 @@ import java.util.Date;
 import java.util.function.Supplier;
 
 /**
- * Description：基于MybatisPlus的自动填充规则<br>
- * Date：2022/11/27 15:24<br>
+ * @description: 基于MybatisPlus的自动填充规则
+ * @date: 2022/11/27 15:24
  * @author IFallowed
  * @version 1.0
  */
@@ -31,9 +31,9 @@ public class MyBatisPlusMetaObjectHandler implements MetaObjectHandler {
     private static final String DEL_STATUS = "delStatus";
 
     /**
-     * Description：新增操作填充策略<br>
-     * Author： IFallowed<br>
-     * Date： 2022/11/27 15:27<br>
+     * @description: 新增操作填充策略
+     * @author IFallowed
+     * @date:  2022/11/27 15:27
      * @param metaObject 元数据
      */
     @Override
@@ -44,9 +44,9 @@ public class MyBatisPlusMetaObjectHandler implements MetaObjectHandler {
     }
 
     /**
-     * Description：更新操作填充策略<br>
-     * Author： IFallowed<br>
-     * Date： 2022/11/27 15:27<br>
+     * @description: 更新操作填充策略
+     * @author IFallowed
+     * @date:  2022/11/27 15:27
      * @param metaObject 元数据
      */
     @Override
@@ -55,9 +55,9 @@ public class MyBatisPlusMetaObjectHandler implements MetaObjectHandler {
     }
 
     /**
-     * Description：默认值填充<br>
-     * Author： IFallowed<br>
-     * Date： 2022/11/27 15:27<br>
+     * @description: 默认值填充
+     * @author IFallowed
+     * @date:  2022/11/27 15:27
      * @param metaObject 元数据
      * @param filledName 被填充的属性名
      * @param valueSupplier 填充值
@@ -73,9 +73,9 @@ public class MyBatisPlusMetaObjectHandler implements MetaObjectHandler {
     }
 
     /**
-     * Description：时间类型属性值填充<br>
-     * Author： IFallowed<br>
-     * Date： 2022/11/27 15:27<br>
+     * @description: 时间类型属性值填充
+     * @author IFallowed
+     * @date:  2022/11/27 15:27
      * @param setterType 被填充属性类型
      * @return java.lang.Object
      */
@@ -92,9 +92,9 @@ public class MyBatisPlusMetaObjectHandler implements MetaObjectHandler {
     }
 
     /**
-     * Description：删除状态默认值填充<br>
-     * Author： IFallowed<br>
-     * Date： 2022/11/27 15:27<br>
+     * @description: 删除状态默认值填充
+     * @author IFallowed
+     * @date:  2022/11/27 15:27
      * @param setterType 被填充属性类型
      * @return java.lang.Object
      */

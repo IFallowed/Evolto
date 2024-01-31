@@ -22,8 +22,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Description：基于UserDetails的Json Web Token用户信息模型<br>
- * Date：2021/9/17 20:23<br>
+ * @description: 基于UserDetails的Json Web Token用户信息模型
+ * @date: 2021/9/17 20:23
  * @author IFallowed
  * @version 1.0
  */

@@ -17,8 +17,8 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * Description：通用实体字段类<br>
- * Date：2022/11/27 15:30<br>
+ * @description: 通用实体字段类
+ * @date: 2022/11/27 15:30
  * @author IFallowed
  * @version 1.0
  */
