@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import javax.validation.ConstraintViolationException;
 
 /**
- * Description：api全局异常捕获处理<br>
- * Date：2020/11/26 18:28<br>
+ * @description: api全局异常捕获处理
+ * @date: 2020/11/26 18:28
  * @author IFallowed
  * @version 1.0
  */
@@ -26,9 +26,9 @@ import javax.validation.ConstraintViolationException;
 public class GlobalExceptionHandler {
 
     /**
-     * Description：处理api请求参数校验异常<br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 19:11<br>
+     * @description: 处理api请求参数校验异常
+     * @author IFallowed
+     * @date:  2020/11/26 19:11
      * @param constraintViolationException 参数校验异常
      * @return java.lang.String
      */

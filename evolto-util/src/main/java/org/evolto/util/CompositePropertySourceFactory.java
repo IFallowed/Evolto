@@ -21,10 +21,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * Description：yml文件解析<br>
- * 由于springboot 默认只支持properties文件，不支持其他格式，因此@PropertySource注解不能解析yml文件<br>
+ * @description: yml文件解析
+ * 由于springboot 默认只支持properties文件，不支持其他格式，因此@PropertySource注解不能解析yml文件
  * 扩展配置解析工厂，自定义工厂类来解析yml文件
- * Date：2021/2/8 11:29<br>
+ * @date: 2021/2/8 11:29
  * @author IFallowed
  * @version 1.0
  */
@@ -46,9 +46,9 @@ public class CompositePropertySourceFactory extends DefaultPropertySourceFactory
     }
 
     /**
-     * Description：加载yaml文件获取Properties对象  <br>
-     * Author： IFallowed<br>
-     * Date： 2021/2/8 11:34<br>
+     * @description: 加载yaml文件获取Properties对象
+     * @author IFallowed
+     * @date:  2021/2/8 11:34
      * @param resource 源文件
      * @return java.util.Properties
      */

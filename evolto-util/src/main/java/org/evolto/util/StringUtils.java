@@ -12,8 +12,8 @@
 package org.evolto.util;
 
 /**
- * Description：String工具类<br>
- * Date：2021/8/30 21:27<br>
+ * @description: String工具类
+ * @date: 2021/8/30 21:27
  * @author IFallowed
  * @version 1.0
  */
@@ -24,9 +24,9 @@ public class StringUtils {
     private static final String STRING_EMPTY = "";
 
     /**
-     * Description：获取字符串，null转换成空字符串<br>
-     * Author： IFallowed<br>
-     * Date： 2021/8/30 21:30<br>
+     * @description: 获取字符串，null转换成空字符串
+     * @author IFallowed
+     * @date:  2021/8/30 21:30
      * @param src 源字符串
      * @return java.lang.String
      */
@@ -35,9 +35,9 @@ public class StringUtils {
     }
 
     /**
-     * Description：获取字符串，null转换成空字符串<br>
-     * Author： IFallowed<br>
-     * Date： 2021/8/30 21:44<br>
+     * @description: 获取字符串，null转换成空字符串
+     * @author IFallowed
+     * @date:  2021/8/30 21:44
      * @param src 源字符串
      * @param defaultValue null时返回值
      * @return java.lang.String
@@ -47,9 +47,9 @@ public class StringUtils {
     }
 
     /**
-     * Description：获取字符串，null转换成空字符串<br>
-     * Author： IFallowed<br>
-     * Date： 2021/8/30 21:44<br>
+     * @description: 获取字符串，null转换成空字符串
+     * @author IFallowed
+     * @date:  2021/8/30 21:44
      * @param src 源字符串
      * @param length 获取长度
      * @return java.lang.String
@@ -59,9 +59,9 @@ public class StringUtils {
     }
 
     /**
-     * Description：获取字符串，null转换成空字符串<br>
-     * Author： IFallowed<br>
-     * Date： 2021/8/30 21:44<br>
+     * @description: 获取字符串，null转换成空字符串
+     * @author IFallowed
+     * @date:  2021/8/30 21:44
      * @param src 源字符串
      * @param length 获取长度
      * @param defaulrValue null时返回值
@@ -72,9 +72,9 @@ public class StringUtils {
     }
 
     /**
-     * Description：获取字符串，null转换成空字符串<br>
-     * Author： IFallowed<br>
-     * Date： 2021/8/30 21:45<br>
+     * @description: 获取字符串，null转换成空字符串
+     * @author IFallowed
+     * @date:  2021/8/30 21:45
      * @param src 源字符串
      * @param start 起始位置
      * @param length 获取长度
@@ -85,9 +85,9 @@ public class StringUtils {
     }
 
     /**
-     * Description：获取字符串，null转换成空字符串<br>
-     * Author： IFallowed<br>
-     * Date： 2021/8/30 21:45<br>
+     * @description: 获取字符串，null转换成空字符串
+     * @author IFallowed
+     * @date:  2021/8/30 21:45
      * @param src 源字符串
      * @param start 起始位置
      * @param length 获取长度
@@ -99,9 +99,9 @@ public class StringUtils {
     }
 
     /**
-     * Description：获取字符串，null转换成空字符串<br>
-     * Author： IFallowed<br>
-     * Date： 2021/8/30 21:45<br>
+     * @description: 获取字符串，null转换成空字符串
+     * @author IFallowed
+     * @date:  2021/8/30 21:45
      * @param src 源字符串
      * @param start 起始位置
      * @param length 获取长度获取长度

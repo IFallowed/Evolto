@@ -20,8 +20,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description：yml配置文件读取工具类<br>
- * Date：2021/10/13 16:37<br>
+ * @description: yml配置文件读取工具类
+ * @date: 2021/10/13 16:37
  * @author IFallowed
  * @version 1.0
  */
@@ -38,11 +38,11 @@ public class YamlUtil {
     private static final ThreadLocal<String> CURRENT_FILE_NAME = new ThreadLocal<>();
 
     /**
-     * Description：读取yml配置文件的数据<br>
-     * fileName为配置文件的全限定名<br>
-     * e.g. /application.yml   /config/xx.yml<br>
-     * Author：IFallowed<br>
-     * Date：2021/10/13 17:05<br>
+     * @description: 读取yml配置文件的数据
+     * fileName为配置文件的全限定名
+     * e.g. /application.yml   /config/xx.yml
+     * @author IFallowed
+     * @date: 2021/10/13 17:05
      * @param fileName yml文件名
      */
     public static void init(String fileName) {
@@ -51,9 +51,9 @@ public class YamlUtil {
     }
 
     /**
-     * Description：通过key获取属性值<br>
-     * Author：IFallowed<br>
-     * Date：2021/10/14 13:26<br>
+     * @description: 通过key获取属性值
+     * @author IFallowed
+     * @date: 2021/10/14 13:26
      * @param key 属性名
      * @return java.lang.Object
      */
@@ -76,9 +76,9 @@ public class YamlUtil {
     }
 
     /**
-     * Description：通过key获取属性值<br>
-     * Author：IFallowed<br>
-     * Date：2021/10/14 13:27<br>
+     * @description: 通过key获取属性值
+     * @author IFallowed
+     * @date: 2021/10/14 13:27
      * @param key 属性名
      * @return java.lang.Object
      */
@@ -87,9 +87,9 @@ public class YamlUtil {
     }
 
     /**
-     * Description：通过key获取属性值,未获取到则返回默认值<br>
-     * Author：IFallowed<br>
-     * Date：2021/10/18 18:12<br>
+     * @description: 通过key获取属性值,未获取到则返回默认值
+     * @author IFallowed
+     * @date: 2021/10/18 18:12
      * @param key 属性名
      * @param defaultValue 默认返回值
      * @return java.lang.Object
@@ -99,9 +99,9 @@ public class YamlUtil {
     }
 
     /**
-     * Description：通过key获取指定配置文件的属性值<br>
-     * Author：IFallowed<br>
-     * Date：2021/10/14 13:29<br>
+     * @description: 通过key获取指定配置文件的属性值
+     * @author IFallowed
+     * @date: 2021/10/14 13:29
      * @param fileName 配置文件的全限定名
      * @param key 属性名
      * @return java.lang.Object
@@ -112,9 +112,9 @@ public class YamlUtil {
     }
 
     /**
-     * Description：通过key获取指定配置文件的属性值,未获取到则返回默认值<br>
-     * Author：IFallowed<br>
-     * Date：2021/10/18 18:12<br>
+     * @description: 通过key获取指定配置文件的属性值,未获取到则返回默认值
+     * @author IFallowed
+     * @date: 2021/10/18 18:12
      * @param fileName 配置文件的全限定名
      * @param key 属性名
      * @param defaultValue 默认返回值

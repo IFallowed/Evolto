@@ -12,8 +12,8 @@
 package org.evolto.util.exception;
 
 /**
- * Description：自定义系统异常<br>
- * Date：2021/10/14 14:37<br>
+ * @description: 自定义系统异常
+ * @date: 2021/10/14 14:37
  * @author IFallowed
  * @version 1.0
  */

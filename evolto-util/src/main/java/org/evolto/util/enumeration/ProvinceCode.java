@@ -12,8 +12,8 @@
 package org.evolto.util.enumeration;
 
 /**
- * Description：省及直辖市代码枚举<br>
- * Date：2020/11/26 19:35<br>
+ * @description: 省及直辖市代码枚举
+ * @date: 2020/11/26 19:35
  * @author IFallowed
  * @version 1.0
  */

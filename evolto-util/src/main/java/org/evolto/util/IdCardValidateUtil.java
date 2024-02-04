@@ -17,8 +17,8 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * Description：身份证校验工具<br>
- * Date：2020/11/26 19:27<br>
+ * @description: 身份证校验工具
+ * @date: 2020/11/26 19:27
  * @author IFallowed
  * @version 1.0
  * 根据〖中华人民共和国国家标准GB11643-1999〗中有关公民身份号码的规定，
@@ -49,9 +49,9 @@ public class IdCardValidateUtil {
     private static final int[] POWER = {7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2};
 
     /**
-     * Description： 验证所有身份证的合法性<br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 20:17<br>
+     * @description: 验证所有身份证的合法性
+     * @author IFallowed
+     * @date:  2020/11/26 20:17
      * @param idCard 身份证号
      * @return java.lang.Boolean
      */
@@ -64,9 +64,9 @@ public class IdCardValidateUtil {
     }
 
     /**
-     * Description：将15位身份证转换成18位<br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 20:24<br>
+     * @description: 将15位身份证转换成18位
+     * @author IFallowed
+     * @date:  2020/11/26 20:24
      * @param idCard 身份证号
      * @return java.lang.String
      */
@@ -114,9 +114,9 @@ public class IdCardValidateUtil {
     }
 
     /**
-     * Description：验证18位身份证合法性<br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 20:26<br>
+     * @description: 验证18位身份证合法性
+     * @author IFallowed
+     * @date:  2020/11/26 20:26
      * @param idCard 身份证号
      * @return java.lang.Boolean
      */
@@ -149,9 +149,9 @@ public class IdCardValidateUtil {
     }
 
     /**
-     * Description：数字字符串验证<br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 20:49<br>
+     * @description: 数字字符串验证
+     * @author IFallowed
+     * @date:  2020/11/26 20:49
      * @param str 数字字符串
      * @return java.lang.Boolean
      */
@@ -160,9 +160,9 @@ public class IdCardValidateUtil {
     }
 
     /**
-     * Description：将身份证的每位和对应位的加权因子相乘之后，再得到和值<br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 21:01<br>
+     * @description: 将身份证的每位和对应位的加权因子相乘之后，再得到和值
+     * @author IFallowed
+     * @date:  2020/11/26 21:01
      * @param bit 身份证号数组
      * @return int
      */
@@ -185,9 +185,9 @@ public class IdCardValidateUtil {
     }
 
     /**
-     * Description：将字符数组转为整型数组<br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 21:12<br>
+     * @description: 将字符数组转为整型数组
+     * @author IFallowed
+     * @date:  2020/11/26 21:12
      * @param c 字符数组
      * @return int[]
      */
@@ -201,9 +201,9 @@ public class IdCardValidateUtil {
     }
 
     /**
-     * Description：将和值与11取模得到余数进行校验码判断<br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 21:12<br>
+     * @description: 将和值与11取模得到余数进行校验码判断
+     * @author IFallowed
+     * @date:  2020/11/26 21:12
      * @param sum17 身份证号前17位的和
      * @return java.lang.String
      */

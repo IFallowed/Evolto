@@ -8,8 +8,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * Description：加密文件转储成其他不加密类型文件<br>
- * Date：2020/11/26 19:35<br>
+ * @description: 加密文件转储成其他不加密类型文件
+ * @date: 2020/11/26 19:35
  * @author IFallowed
  * @version 1.0
  */
@@ -34,9 +34,9 @@ public class Encrypt {
     }
 
     /**
-     * Description：获取jar所在的父级目录<br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 11:01<br>
+     * @description: 获取jar所在的父级目录
+     * @author IFallowed
+     * @date:  2020/11/26 11:01
      * @return java.lang.String
      */
     public static String getSourceDir(){
@@ -45,9 +45,9 @@ public class Encrypt {
     }
 
     /**
-     * Description：转储文件数据 <br>
-     * Author： IFallowed<br>
-     * Date： 2020/11/26 11:02<br>
+     * @description: 转储文件数据
+     * @author IFallowed
+     * @date:  2020/11/26 11:02
      * @param srcDir    源文件目录
      * @param tarDir    生成文件目录
      */

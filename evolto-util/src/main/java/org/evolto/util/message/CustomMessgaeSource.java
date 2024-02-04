@@ -15,8 +15,8 @@ import org.springframework.context.support.MessageSourceAccessor;
 import org.springframework.context.support.ResourceBundleMessageSource;
 
 /**
- * Description：自定义静态信息获取工具类<br>
- * Date：2021/8/26 20:45<br>
+ * @description: 自定义静态信息获取工具类
+ * @date: 2021/8/26 20:45
  * @author IFallowed
  * @version 1.0
  */
